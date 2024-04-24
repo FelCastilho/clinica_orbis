@@ -12,13 +12,13 @@ export function About(){
                 <p className='crm'>CRM - DF 22735 | RQE 17185</p>
 
                 <p className='about-contentText'>
-                    Sou Oftalmologista Especialista <br />
-                    em Córnea, Cirurgia Refrativa,<br />
-                    Catarata e Lentes de Contato <br />
-                    com experiência de anos e criei <br />
-                    a Orbis Eyecare para oferecer a <br />
-                    você uma maneira diferente e de <br />
-                    qualidade para cuidar da saúde <br />
+                    Sou Oftalmologista Especialista 
+                    em Córnea, Cirurgia Refrativa, <br />
+                    Catarata e Lentes de Contato 
+                    com experiência de anos. <br /> Criei 
+                    a Clínica Orbis Eyecare para oferecer a 
+                    você uma maneira <br /> diferente e de 
+                    qualidade para cuidar da saúde 
                     dos seus olhos.
                     </p>
             </div>

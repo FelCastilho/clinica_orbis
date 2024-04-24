@@ -9,7 +9,7 @@ export function Schedule() {
             <div className="contactUs-container">
 
                 <div className="contactUs-text">
-                    <h1>Agende <br /> sua consulta</h1>
+                    <h1>Agende sua consulta</h1>
                     <p>
                         Nossos especialistas altamente qualificados e <br />
                         dedicados estão prontos para

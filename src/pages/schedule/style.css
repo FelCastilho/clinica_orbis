@@ -1,5 +1,5 @@
 .schedule {
-    height: 100vh;
+    height: 80vh;
     background-color: #F1F6EB;
     display: flex;
     align-items: center;
@@ -19,14 +19,14 @@
 }
 
 .contactUs-container h1{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 2.5rem;
 }
 
 .contactUs-container p{
     font-size: 1rem;
     margin-top: 15px;  
-    margin-bottom: 30px;  
+    margin-bottom: 40px;  
 }
 
 .consult-btn{
@@ -51,4 +51,5 @@
     bottom: -0%; 
     right: -4.17%; 
     width: 50%; 
+    user-select: none;
 }
