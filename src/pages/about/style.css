@@ -4,4 +4,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 100px;
+}
+
+.image-about{
+    width: 90%;
+}
+
+.about h1{
+    color: #1B4332;
+    
+}
+
+.about-contentText{
+    font-weight: 500;
+}
+
+.crm{
+    color: #1B4332;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    font-weight: 400;
 }

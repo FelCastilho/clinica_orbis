@@ -7,17 +7,48 @@
 }
 
 .contactUs-container {
-    width: 1200px;
+    width: 800px;
     background-color: #1E9664;
     display: flex;
+    align-items: center;
     position: relative; 
-    height: 400px;
+    height: 350px;
+    color: white;
     padding: 20px;
+    border-radius: 20px;
+}
+
+.contactUs-container h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.contactUs-container p{
+    font-size: 1rem;
+    margin-top: 15px;  
+    margin-bottom: 30px;  
+}
+
+.consult-btn{
+    background-color: #1B4332;
+    border: 2px solid #1B4332;
+    padding: 12px;
+    margin-top: 10px;  
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s all ease-in-out;
+}
+
+.consult-btn:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
 }
 
 .foto-anderson {
     position: absolute;
-    top: -5.31%; /* Convertido de -50px */
-    right: -4.17%; /* Convertido de -50px */
-    width: 35.5%; 
+    bottom: -0%; 
+    right: -4.17%; 
+    width: 50%; 
 }

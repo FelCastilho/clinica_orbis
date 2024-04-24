@@ -1,5 +1,7 @@
 import './style.css'
-import FotoAnderson from '../../assets/anderson.jpg'
+import FotoAnderson from '../../assets/anderson.jpg';
+import { Link } from 'react-router-dom';
+
 export function Schedule() {
     return (
         <section className='schedule'>
@@ -7,8 +9,7 @@ export function Schedule() {
             <div className="contactUs-container">
 
                 <div className="contactUs-text">
-                    
-                    <h1>Agende sua <br /> consulta</h1>
+                    <h1>Agende <br /> sua consulta</h1>
                     <p>
                         Nossos especialistas altamente qualificados e <br />
                         dedicados estão prontos para
@@ -18,6 +19,8 @@ export function Schedule() {
                         viver com mais qualidade <br />
                         de vida e garantir um futuro mais saudável.
                     </p>
+
+                    <Link to="#" className='consult-btn'>Entre em contato</Link>
                 </div>
 
                 <div className='image-container'> 

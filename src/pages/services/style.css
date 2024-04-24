@@ -1,0 +1,34 @@
+.services{
+    border-top: 1px solid #1E9664;
+    border-bottom: 1px solid #1E9664;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.services h1{
+    color: #1B4332;
+}
+
+.services-text{
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    gap: 10px;
+}
+
+.container-services{
+    display: flex;
+    gap: 300px;
+}
+
+.grupo1, .grupo2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+}

@@ -3,7 +3,9 @@ import { Aside } from './components/aside'
 import { Header } from './components/header'
 import { About } from './pages/about'
 import { Hero } from './pages/hero'
+import { OurSpace } from './pages/ourSpace'
 import { Schedule } from './pages/schedule'
+import { Services } from './pages/services'
 
 function App() {
 
@@ -13,7 +15,9 @@ function App() {
       <Hero/>
       <Aside/>
       <About/>
+      <Services/>
       <Schedule/>
+      <OurSpace/>
     </>
   )
 }

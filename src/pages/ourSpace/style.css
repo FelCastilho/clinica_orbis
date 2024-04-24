@@ -1,0 +1,30 @@
+.our-space{
+    height: 100vh;
+    background: url('../../assets/texture2-bg.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.our-space h1{
+    color: #fff;
+}
+
+.photos{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos img {
+    width: 25%;
+    cursor: pointer;
+    transition: transform 0.3s; 
+}
+
+.photos img:hover {
+    transform: scale(1.1); 
+}

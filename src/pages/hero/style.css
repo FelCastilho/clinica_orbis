@@ -20,19 +20,35 @@
 .hero h1{
     margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: 1.5px;
+    line-height: 2.5rem;
     color: white;
     font-family: 'Inter' , sans-serif;
 }
 
 .hero p{
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 1.3rem;
     letter-spacing: 1px;
     color: white;
     font-family: 'Inter' , sans-serif;
+}
+
+.btn-hero{
+    background-color: #1B4332;
+    border: 2px solid #1B4332; 
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn-hero:hover{
+    background-color: transparent;
+    border: 2px solid #fff; 
 }
 
 .blank-space{
