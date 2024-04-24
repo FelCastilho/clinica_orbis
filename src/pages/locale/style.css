@@ -1,0 +1,53 @@
+.locale{
+    height: 100vh;
+    background-color: #1E9664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 50px;
+}
+
+.box-contacts{
+    width: 400px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+.contact-text{
+    margin-bottom: 20px;
+}   
+
+.contact-text h1{
+    margin-bottom: 10px;
+}   
+
+.contact-item:not(:last-child){
+    display: flex;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.whatsapp-btn{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 0.3s ease-in-out all;
+}
+
+.whatsapp-btn:hover{
+    background-color: #1B4332;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+
+

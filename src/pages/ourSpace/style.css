@@ -1,6 +1,7 @@
 .our-space{
     height: 100vh;
-    background: url('../../assets/texture2-bg.svg');
+    background: url('../../assets/texture2-bg.svg') no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;

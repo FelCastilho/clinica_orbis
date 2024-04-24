@@ -4,23 +4,22 @@ import Logo from '../../assets/logo.svg';
 
 import { Link } from "react-router-dom";
 
-export function Header(){
+export function Header() {
 
-  const [ isOpen, setIsOpen ] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   }
 
-  return(
+  return (
     <header>
-        
-        
+
       <nav className={`navbar ${isOpen ? 'open' : ''}`}>
-        
+
         <div className="nav-container">
 
-          <img src={Logo} className="logo-header"/>
+          <img src={Logo} className="logo-header" />
 
           <div className="menu-icon" onClick={toggleNavbar}>
 

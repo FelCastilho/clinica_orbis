@@ -1,0 +1,22 @@
+.feedbacks{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F6EB;
+    color: #1B4332;
+    gap: 50px;
+}
+
+.comments{
+    display: flex;
+    gap: 50px;
+    transition: transform 0.3s; 
+}
+
+.comments img{
+    user-select: none;
+    border-radius: 15px;
+}
+
