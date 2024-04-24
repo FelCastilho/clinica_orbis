@@ -1,0 +1,23 @@
+.schedule {
+    height: 100vh;
+    background-color: #F1F6EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUs-container {
+    width: 1200px;
+    background-color: #1E9664;
+    display: flex;
+    position: relative; 
+    height: 400px;
+    padding: 20px;
+}
+
+.foto-anderson {
+    position: absolute;
+    top: -5.31%; /* Convertido de -50px */
+    right: -4.17%; /* Convertido de -50px */
+    width: 35.5%; 
+}

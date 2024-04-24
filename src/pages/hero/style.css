@@ -1,0 +1,48 @@
+.hero{
+    background: url('./bg.svg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: calc(100vh - 15vh); 
+    position: relative;
+}
+
+.hero-container{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero h1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+}
+
+.hero p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Inter' , sans-serif;
+}
+
+.blank-space{
+    background-color: transparent;
+    width: 200px;
+    height: 100px;
+}
+
+@media screen and (max-width: 768px){
+
+   
+    
+}
