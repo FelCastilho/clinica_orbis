@@ -7,14 +7,14 @@
 }
 
 .contactUs-container {
-    width: 800px;
+    width: 850px;
     background-color: #1E9664;
     display: flex;
     align-items: center;
     position: relative; 
     height: 350px;
     color: white;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
 }
 
@@ -49,7 +49,7 @@
 .foto-anderson {
     position: absolute;
     bottom: -0%; 
-    right: -4.17%; 
+    right: -2%; 
     width: 50%; 
     user-select: none;
 }
